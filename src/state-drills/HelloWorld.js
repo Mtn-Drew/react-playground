@@ -7,6 +7,12 @@ class HelloWorld extends React.Component {
     // this.handleButtonClick= this.handleButtonClick.bind(this);
   }
 
+  // handleButtonClick = () => {
+  //   this.setState({
+  //     who: 'value'
+  //   });
+  // }
+
   handleButtonClickReact = () => {
     this.setState({
       who: 'React'
